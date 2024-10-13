@@ -1,7 +1,7 @@
 // Package logging provides the operators's recommended logging interface.
 //
 // The logging interface avoids the complexity of levels and provides a simpler
-// api that makes it harder to introduce unnecesasry ambiguity to logs (or
+// api that makes it harder to introduce unnecessary ambiguity to logs (or
 // ascribing value to arbitrary magic numbers).
 //
 // An Error logging helper exists primarily to facilitate including a stack trace
