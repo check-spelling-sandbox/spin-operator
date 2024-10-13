@@ -1620,7 +1620,7 @@ spec:
                       type: object
                     hostPath:
                       description: |-
-                        hostPath represents a pre-existing file or directory on the host
+                        hostPath represents a preexisting file or directory on the host
                         machine that is directly exposed to the container. This is generally
                         used for system agents or other privileged things that are allowed
                         to see the host machine. Most containers will NOT need this.
