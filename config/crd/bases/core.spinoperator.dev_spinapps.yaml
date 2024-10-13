@@ -1319,7 +1319,7 @@ spec:
                                   description: |-
                                     resources represents the minimum resources the volume should have.
                                     If RecoverVolumeExpansionFailure feature is enabled users are allowed to specify resource requirements
-                                    that are lower than previous value but must still be higher than capacity recorded in the
+                                    that are less than previous value but must still be greater than capacity recorded in the
                                     status field of the claim.
                                     More info: https://kubernetes.io/docs/concepts/storage/persistent-volumes#resources
                                   properties:
