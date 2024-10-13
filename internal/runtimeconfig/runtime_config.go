@@ -28,7 +28,7 @@
 //	    type: "redis"
 //	    options:
 //	      - name: url
-//	        value: "redis://localghost:9000"
+//	        value: "redis://localhost:9000"
 //	  - name: "myotherstore"
 //	    type: "sqlite"
 //	    options:
@@ -51,7 +51,7 @@
 //
 //	[key_value_store.mystore]
 //	type = "redis"
-//	url = "redis://localghost:9000"
+//	url = "redis://localhost:9000"
 //
 //	[key_value_store.myotherstore]
 //	type = "sqlite"
